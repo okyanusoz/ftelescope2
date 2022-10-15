@@ -12,10 +12,7 @@ export default function ScrollShow(props: { children: React.ReactNode}) {
         if(io.current) io.current.disconnect()
 
         io.current = new IntersectionObserver((intersections) => {
-            if(intersections[0].isIntersecting) {
-                setShow(true)
-                return
-            }
+            setShow(intersections[0].isIntersecting)
         }, {
             threshold: 0.02
         })
