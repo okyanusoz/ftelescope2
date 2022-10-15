@@ -18,3 +18,9 @@ yarn # if you haven't already
 yarn build
 yarn export
 ```
+
+## License
+
+MIT.
+
+It would be fun to see this fun little project be integrated into the real website.
