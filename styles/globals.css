@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
 
-*, *::before, *::after { box-sizing: border-box; word-wrap: break-word; }
+*, *::before, *::after {
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+* {
+  scrollbar-color: #aaa #041937; /* gives the scrollbar a more distinct feel.
+  Firefox only unfortunately. WebKit also has a way to style the scrollbar but it's complicated.
+  */
+}
+
 
 html,
 body {
