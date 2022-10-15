@@ -19,7 +19,7 @@ yarn build
 yarn export
 ```
 
-## License
+## License
 
 MIT.
 
