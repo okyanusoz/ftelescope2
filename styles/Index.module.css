@@ -1,0 +1,133 @@
+.hero {
+    width: 100vw;
+    min-height: 30rem;
+    background-color: #211c1c;
+    color: white;
+    padding: 15px 32px;
+}
+
+.heroHeading {
+    max-width: 15ch;
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,121,9,1) 0%, rgba(0,179,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.heroImage {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.section {
+    text-align: center;
+}
+
+.section:not(:last-of-type) {
+    margin: 1.5em auto;
+}
+
+.section:nth-child(even) {
+    background-color: #89b394;
+    padding: 32px 64px;
+}
+
+.problemFlex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.problemCard {
+    background-color: #dd3f14c8;
+    color: white;
+    max-width: 18rem;
+    padding: 15px 32px;
+    margin: 1.5em;
+    border-radius: 15px;
+}
+
+.problemCardBest {
+    background-color: #387025;
+    transform: scale(1.1);
+}
+
+.btn {
+    display: block;
+    margin: 1.5em 0;
+    padding: 15px 32px;
+    max-width: 8rem;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 980px;
+    background-color: #093470;
+    transition: background-color 0.2s;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #195073;
+}
+
+
+@media screen and (max-width: 900px) {
+    .heroImage {
+        display: none;
+    }
+}
+
+.fancyLink {
+    text-decoration: none;
+    color: #037bfc;
+    border-bottom: 2px solid grey;
+    position: relative;
+}
+
+.fancyLink::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.fancyLink:hover::before {
+    width: 100%;
+}
+
+.arrow {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    margin-left: 2px;
+    transform: rotate(-45deg);
+}
+
+.quote {
+    width: 100ch;
+    max-width: 100vw;
+    word-wrap: break-word;
+    margin: 0 auto;
+    text-align: start;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    padding: 15px 32px;
+    background-color: lightgrey;
+    border-radius: 15px;
+}

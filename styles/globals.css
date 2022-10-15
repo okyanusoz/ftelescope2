@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+*, *::before, *::after { box-sizing: border-box; word-wrap: break-word; }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.05rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+}
+
+.poppins {
+  font-family: Poppins, Helvetica, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
