@@ -37,7 +37,7 @@ export default function ScrollShow(props: { children: React.ReactNode}) {
             transform: show ? "translateX(0)" : "translateX(-150%)",
             opacity: show ? "1" : "0",
             filter: show ? "blur(0)" : "blur(50px)",
-            transition: "all 1s"
+            transition: show ? "all 1s" : ""
         }}>
             {props.children}
         </div>
