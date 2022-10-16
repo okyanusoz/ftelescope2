@@ -6,11 +6,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 3000;
 }
+
 
 
 .navSection {
@@ -20,11 +17,11 @@
     display: flex;
 }
 
-.navSection > * {
+.navSection>* {
     margin-left: 0.5rem;
 }
 
-.navSection > *:not(:last-of-type) {
+.navSection>*:not(:last-of-type) {
     margin-right: 0.5rem;
 }
 

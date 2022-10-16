@@ -4,6 +4,7 @@ export default function ScrollShow(props: { children: React.ReactNode}) {
     const io = useRef<IntersectionObserver | null>(null)
     const element = useRef<any>()
     const [show, setShow] = useState(true)
+    const [animated, setAnimated] = useState(false)
 
     useEffect(() => {
         if(!element.current) return
@@ -12,9 +13,13 @@ export default function ScrollShow(props: { children: React.ReactNode}) {
         if(io.current) io.current.disconnect()
 
         io.current = new IntersectionObserver((intersections) => {
+            if(animated) return
             setShow(intersections[0].isIntersecting)
+            if(intersections[0].isIntersecting) {
+                setAnimated(true)
+            }
         }, {
-            threshold: 0.02
+            threshold: 0.8
         })
 
         io.current.observe(element.current)

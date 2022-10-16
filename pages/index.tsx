@@ -13,18 +13,15 @@ export default function Index() {
         <Navbar activePage="home" />
         <main>
             <div className={styles.hero}>
-                <div className={styles.flex}>
-                    <div>
-                        <h1 className={classNames("poppins", styles.heroHeading)}>
-                            Çocuklara teleskopların yapısını öğretmenin en kolay yolu
-                        </h1>
-                        <b>
-                            Çocuklara teleskopları deneyimleterek öğretin.
-                            İlk Teleskobum, çocuklara teleskopları deneyimleterek öğretir.
-                        </b>
-                        <a className={styles.btn} href="#">Satın al</a>
-                    </div>
-                    <img src="https://source.unsplash.com/8SjeH5pZbjw" className={styles.heroImage}></img>
+                <div>
+                    <h1 className={classNames("poppins", styles.heroHeading)}>
+                        Çocuklara teleskopların yapısını öğretmenin en kolay yolu
+                    </h1>
+                    <b>
+                        Çocuklara teleskopları deneyimleterek öğretin.
+                        İlk Teleskobum, çocuklara teleskopları deneyimleterek öğretir.
+                    </b>
+                    <a className={styles.btn} href="#">Satın al</a>
                 </div>
                 <div style={{
                     display: "grid",
@@ -131,7 +128,7 @@ export default function Index() {
             </section>
             <section className={styles.section}>
                 <ScrollShow>
-                    <div className={styles.quote} style={{fontSize: "1.25em"}}>
+                    <div className={styles.quote} style={{ fontSize: "1.25em" }}>
                         <span>
                             Hayatımda hiç böyle bir şey görmedim. Teleskopların yapısını bana gerçekten öğretti.
                             <div style={{
@@ -142,7 +139,7 @@ export default function Index() {
                         </span>
                     </div>
                     <br />
-                    <div className={styles.quote} style={{fontSize: "1.25em"}}>
+                    <div className={styles.quote} style={{ fontSize: "1.25em" }}>
                         <span>
                             Bu seti ilk gördüğümde biraz ön yargılıydım. Ama sonra anladım ki bu set hayatımda gördüğüm
                             en eğlencelilerinden biriymiş.
@@ -154,7 +151,7 @@ export default function Index() {
                         </span>
                     </div>
                     <br />
-                    <div className={styles.quote} style={{fontSize: "1.25em"}}>
+                    <div className={styles.quote} style={{ fontSize: "1.25em" }}>
                         <span>
                             Söyleyeceğim hiç bir şey yok. Eğer bu seti düşünüyorsanız, hemen alın.
                             <div style={{

@@ -1,9 +1,29 @@
 .hero {
     width: 100vw;
     min-height: 30rem;
-    background-color: #211c1c;
     color: white;
     padding: 15px 32px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://source.unsplash.com/8SjeH5pZbjw");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 1366px) {
+    .hero {
+        background-attachment: scroll;
+    }
 }
 
 .heroHeading {
@@ -14,19 +34,6 @@
     -moz-text-fill-color: transparent;
 }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.heroImage {
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
-    flex-shrink: 0;
-}
 
 .section {
     text-align: center;
@@ -80,13 +87,6 @@
 
 .btn:hover {
     background-color: #195073;
-}
-
-
-@media screen and (max-width: 900px) {
-    .heroImage {
-        display: none;
-    }
 }
 
 .fancyLink {
