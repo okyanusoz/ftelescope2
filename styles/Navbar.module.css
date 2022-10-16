@@ -12,14 +12,6 @@
     z-index: 3000;
 }
 
-.logo {
-    font-weight: bold;
-    font-style: italic;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    font-family: Poppins, sans-serif;
-    user-select: none;
-}
 
 .navSection {
     padding: 0;

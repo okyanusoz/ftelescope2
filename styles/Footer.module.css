@@ -1,0 +1,28 @@
+.footer {
+    padding: 32px;
+    background-color: #062755;
+    color: white;
+    flex-shrink: 0;
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    font-size: 0.95em;
+    padding: 15px 32px;
+}
+
+.footer a {
+    color: currentColor;
+}
+
+.footer a:not(:hover) {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .footerGrid {
+        grid-template-columns: 1fr;
+    }
+}

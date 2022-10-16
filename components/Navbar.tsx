@@ -1,5 +1,6 @@
 import Link from "next/link"
 import styles from "../styles/Navbar.module.css"
+import Logo from "./Logo"
 import classNames from "classnames"
 
 type ActivePage = "home" | "setup" | "contact"
@@ -25,9 +26,7 @@ function NavItem(props: NavItemProps) {
 
 export default function Navbar(props: Props) {
     return (<nav className={styles.navbar}>
-        <span className={styles.logo}>
-            İlk teleskobum 2
-        </span>
+        <Logo></Logo>
 
         {/* Main navigation */}
         <ul className={styles.navSection}>

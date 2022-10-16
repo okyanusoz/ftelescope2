@@ -6,7 +6,8 @@
 }
 
 * {
-  scrollbar-color: #aaa #041937; /* gives the scrollbar a more distinct feel.
+  scrollbar-color: #aaa #041937; /*
+  Gives the scrollbar a more distinct feel.
   Firefox only unfortunately. WebKit also has a way to style the scrollbar but it's complicated.
   */
 }
@@ -17,7 +18,20 @@ body {
   padding: 0;
   margin: 0;
   font-size: 1.05rem;
+  height: 100%;
   font-family: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+}
+
+/* The React root element */
+#__next {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  /* Needed for the sticky footer */
+  flex: 1 0 auto;
 }
 
 .poppins {
