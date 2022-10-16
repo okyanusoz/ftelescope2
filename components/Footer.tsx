@@ -43,7 +43,7 @@ export default function Footer() {
             justifyContent: "flex-end"
         }}>
             <b>
-                © 2023. Tüm hakları saklıdır.
+                © {new Date().getFullYear()}. Tüm hakları saklıdır.
             </b>
         </div>
     </footer>
