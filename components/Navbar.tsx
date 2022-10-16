@@ -31,7 +31,7 @@ export default function Navbar(props: Props) {
         {/* Main navigation */}
         <ul className={styles.navSection}>
             <NavItem activePage={props.activePage} page="home" href="/">Ana sayfa</NavItem>
-            <NavItem activePage={props.activePage} page="setup" href="/setup">Kurulum</NavItem>
+            <NavItem activePage={props.activePage} page="setup" href="http://www.ilkteleskobum.com/kurulum">Kurulum</NavItem>
             <NavItem activePage={props.activePage} page="contact" href="/contact">İletişim</NavItem>
         </ul>
     </nav>)

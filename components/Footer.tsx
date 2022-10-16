@@ -12,7 +12,7 @@ export default function Footer() {
                 <h3>Ürün</h3>
                 <Link href="/">Ana sayfa</Link>
                 <br /><br />
-                <Link href="/setup">Kurulum</Link>
+                <Link href="http://www.ilkteleskobum.com/kurulum">Kurulum</Link>
                 <br /><br />
                 <Link href="/store">Mağaza</Link>
             </section>
