@@ -3,7 +3,6 @@ import styles from "../styles/Index.module.css"
 import classNames from "classnames"
 import ScrollShow from "../components/ScrollShow"
 import Head from "next/head"
-import Logo from "../components/Logo"
 import Footer from "../components/Footer"
 
 export default function Index() {
