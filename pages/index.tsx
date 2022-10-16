@@ -123,7 +123,7 @@ export default function Index() {
                     <br />
                     <br />
 
-                    <a href="/setup" className={styles.fancyLink}>Kurulum <span className={styles.arrow} /></a>
+                    <a href="http://www.ilkteleskobum.com/kurulum" className={styles.fancyLink}>Kurulum <span className={styles.arrow} /></a>
                 </ScrollShow>
             </section>
             <section className={styles.section}>
