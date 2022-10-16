@@ -73,7 +73,7 @@ export default function Index() {
                 marginTop: "0"
             }}>
                 <ScrollShow>
-                    <h1 className="poppins">Fen Bilimleri&apos;nde İlk Teleskobum farkını görün</h1>
+                    <h1 className="poppins">Fen Bilimleri'nde İlk Teleskobum farkını görün</h1>
                     <div className={styles.problemFlex} style={{
                         textAlign: "start",
                         margin: "0 1.5em"

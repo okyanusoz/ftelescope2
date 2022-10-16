@@ -16,7 +16,7 @@ export default function Contact() {
                     <h2>E-posta veya telefon</h2>
                     <b>+90 (000) 000 000</b>
                     <br />
-                    8.00-10.00&apos;a ve Pazartesi-Cumartesi&apos;ye kadar açığız.
+                    8.00-10.00'a ve Pazartesi-Cumartesi'ye kadar açığız.
                     <br />
                     <br /><br />
 
